@@ -1,0 +1,11 @@
+---
+- name: playbook C for testing workflow
+
+  tasks:
+   
+    - name: print MSG
+      ansible.builtin.debug:
+        msg: "Hello, from play C"
+
+        
+  
